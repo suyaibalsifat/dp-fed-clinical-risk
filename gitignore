@@ -1,0 +1,12 @@
+# Downloaded / generated at run time
+FLamby/
+heart_disease_dataset/
+_smoke_test/
+qdp_fed_results/
+qdp_fed_results.zip
+
+# Python / Jupyter
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

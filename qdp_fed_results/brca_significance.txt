@@ -1,0 +1,3 @@
+FedAvg_vs_FedProx: wilcoxon p=0.125, mean_auc_diff=0.0004 (n_seeds=5)
+FedProx_vs_DP-FedProx: wilcoxon p=0.0625, mean_auc_diff=-0.1943 (n_seeds=5)
+DP-FedProx_vs_Q-DP-FedProx: wilcoxon p=0.0625, mean_auc_diff=0.0725 (n_seeds=5)

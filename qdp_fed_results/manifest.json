@@ -1,0 +1,52 @@
+{
+  "seeds": 5,
+  "rounds": 30,
+  "val_fraction": 0.2,
+  "datasets": [
+    "heart",
+    "brca",
+    "wisconsin"
+  ],
+  "configs": {
+    "FedAvg": {
+      "name": "FedAvg",
+      "mu": 0.0,
+      "dp": false,
+      "sigma": 0.0,
+      "clip_norm": 1.0,
+      "quantize_bits": null,
+      "local_epochs": 5,
+      "lr": 0.1
+    },
+    "FedProx": {
+      "name": "FedProx",
+      "mu": 0.05,
+      "dp": false,
+      "sigma": 0.0,
+      "clip_norm": 1.0,
+      "quantize_bits": null,
+      "local_epochs": 5,
+      "lr": 0.1
+    },
+    "DP-FedProx": {
+      "name": "DP-FedProx",
+      "mu": 0.05,
+      "dp": true,
+      "sigma": 1.5,
+      "clip_norm": 1.0,
+      "quantize_bits": null,
+      "local_epochs": 5,
+      "lr": 0.1
+    },
+    "Q-DP-FedProx": {
+      "name": "Q-DP-FedProx",
+      "mu": 0.05,
+      "dp": true,
+      "sigma": 1.5,
+      "clip_norm": 1.0,
+      "quantize_bits": 8,
+      "local_epochs": 5,
+      "lr": 0.1
+    }
+  }
+}

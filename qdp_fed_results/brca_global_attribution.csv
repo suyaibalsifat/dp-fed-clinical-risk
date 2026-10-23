@@ -1,0 +1,40 @@
+feature,mean_abs_shap,rank
+age_at_index,0.34621356305952977,1
+tumor_stage_stage iia,0.242799709241835,2
+ajcc_pathologic_stage_Stage IIA,0.242799709241835,3
+treatment_or_therapy_not reported,0.21064451347998944,4
+tumor_stage_stage i,0.20772287310500823,5
+ajcc_pathologic_t_T2,0.19279994112386487,6
+ajcc_pathologic_t_T1c,0.18132779005435723,7
+ajcc_pathologic_n_N2,0.1802218517094308,8
+ajcc_staging_system_edition_6th,0.1769433929179178,9
+ajcc_pathologic_n_N0 (i-),0.15901202024466393,10
+race_white,0.15424360760385286,11
+ajcc_pathologic_stage_Stage IA,0.14354361450998007,12
+tumor_stage_stage ia,0.14354361450998007,13
+ajcc_pathologic_stage_Stage IIB,0.12435550605082234,14
+tumor_stage_stage iib,0.12435550605082234,15
+race_black or african american,0.11849191285621953,16
+morphology_8500/3,0.10301293070424718,17
+"primary_diagnosis_Infiltrating duct carcinoma, NOS",0.10301293070424718,18
+ajcc_pathologic_m_MX,0.09062641001576784,19
+race_not reported,0.08803147369258162,20
+tumor_stage_stage iiia,0.08773168960475229,21
+ajcc_pathologic_stage_Stage IIIA,0.08773168960475226,22
+ajcc_pathologic_n_N1a,0.07527509114288233,23
+ajcc_staging_system_edition_7th,0.07128175283634,24
+ethnicity_not hispanic or latino,0.062291183862311465,25
+ajcc_pathologic_n_N2a,0.059656723890866285,26
+ethnicity_not reported,0.054063761627640324,27
+ajcc_staging_system_edition_5th,0.03871667446559565,28
+prior_malignancy_yes,0.029987584216214197,29
+tumor_stage_stage iiic,0.028751759433920655,30
+ajcc_pathologic_stage_Stage IIIC,0.028751759433920655,31
+morphology_8520/3,0.01741444161490011,32
+"primary_diagnosis_Lobular carcinoma, NOS",0.01741444161490011,33
+synchronous_malignancy_Not Reported,0.01507197325275964,34
+race_asian,0.014606370804116536,35
+icd_10_code_C50.9,0.009986169263053509,36
+ajcc_pathologic_n_N1,0.009382361906381175,37
+ajcc_pathologic_t_T3,0.008264258495510967,38
+treatment_or_therapy_yes,0.007590862351878244,39
